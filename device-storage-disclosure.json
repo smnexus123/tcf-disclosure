@@ -1,5 +1,9 @@
 {
-  "domains": ["thenexusengine.io"],
+  "domains": [
+    {
+      "domain": "thenexusengine.io"
+    }
+  ],
   "disclosures": [
     {
       "identifier": "_nxs_uid",
