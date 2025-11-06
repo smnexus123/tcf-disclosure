@@ -1,31 +1,29 @@
 {
+  "domains": ["thenexusengine.io"],
   "disclosures": [
     {
       "identifier": "_nxs_uid",
-      "type": 1,
-      "maxAgeSeconds": 31536000,
+      "type": "cookie",
+      "maxAgeSeconds": 7776000,
       "cookieRefresh": false,
       "purposes": [1, 2, 7, 10],
-      "domain": "thenexusengine.io",
-      "description": "Unique user identifier for ad optimization and frequency capping"
+      "domain": "thenexusengine.io"
     },
     {
       "identifier": "_nxs_session",
-      "type": 1,
+      "type": "cookie",
       "maxAgeSeconds": 1800,
-      "cookieRefresh": true,
+      "cookieRefresh": false,
       "purposes": [1, 2],
-      "domain": "thenexusengine.io",
-      "description": "Session tracking for ad delivery optimization"
+      "domain": "thenexusengine.io"
     },
     {
       "identifier": "_nxs_consent",
-      "type": 1,
-      "maxAgeSeconds": 31536000,
+      "type": "cookie",
+      "maxAgeSeconds": 7776000,
       "cookieRefresh": false,
       "purposes": [1],
-      "domain": "thenexusengine.io",
-      "description": "User consent preferences"
+      "domain": "thenexusengine.io"
     }
   ]
 }
